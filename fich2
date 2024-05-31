@@ -1,0 +1,9 @@
+# Taux de survie par sexe
+#0: female
+#1: male
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.barplot(x='Sex', y='Survived', data=titanic_df)
+plt.title('Taux de survie par sexe')
+plt.show()
